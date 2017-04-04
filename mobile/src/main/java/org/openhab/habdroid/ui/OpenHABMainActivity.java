@@ -1198,10 +1198,10 @@ public class OpenHABMainActivity extends AppCompatActivity implements OnWidgetSe
             return;
         }
         // We need remote URL to be my.oh
-        if (!remoteUrl.toLowerCase().contains("openhab.org")) {
-            Log.d(TAG, "Remote URL " + remoteUrl + "is not a openhab domain, no GCM registration will be made");
-            return;
-        }
+        //if (!remoteUrl.toLowerCase().contains("openhab.org")) {
+        //    Log.d(TAG, "Remote URL " + remoteUrl + "is not a openhab domain, no GCM registration will be made");
+        //    return;
+        //}
         mIsMyOpenHAB = true;
         // Finally, all sanity is done
         Crittercism.setUsername(openHABUsername);
